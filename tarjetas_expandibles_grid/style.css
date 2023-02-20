@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(219, 216, 213);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .contenedorImagenes {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: auto;
+  align-items: stretch;
+  gap: 10px;
+}
+body .contenedorImagenes img {
+  width: 60px;
+  height: 300px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.6s ease-in-out;
+}
+body .contenedorImagenes img:hover {
+  width: 400px;
+}/*# sourceMappingURL=style.css.map */
